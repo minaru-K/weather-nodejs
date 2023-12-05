@@ -1,0 +1,22 @@
+{
+  "name": "server-on-express",
+  "version": "1.0.0",
+  "description": "nodejs basic app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "author": "Minaru Karida",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
